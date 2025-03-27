@@ -143,11 +143,11 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
       </div>
 
       {!showTest ? (
-        <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6'>
+        <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 items-start'>
           {day.words.map(word => (
             <div
               key={word.id}
-              className={`border rounded-lg p-4 shadow-md transition-all duration-300 ${
+              className={`border rounded-lg p-4 shadow-md transition-all duration-300 cursor-pointer h-fit ${
                 expandedWordId === word.id
                   ? 'bg-blue-50 dark:bg-gray-900'
                   : 'hover:bg-gray-50 dark:hover:bg-gray-900'
