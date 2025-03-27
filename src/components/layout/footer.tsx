@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -62,12 +62,12 @@ export function Footer() {
               <div>
                 <p className='font-medium'>Contact</p>
                 <nav className='mt-4 flex flex-col space-y-2 text-sm text-muted-foreground'>
-                  <div className='flex items-center gap-2'>
+                  {/* <div className='flex items-center gap-2'>
                     <Phone className='h-4 w-4' />
                     <span>+84-818-548-409</span>
-                  </div>
+                  </div> */}
                   <div className='flex items-center gap-2'>
-                    <Mail className='h-4 w-4' />
+                    <Mail className='h-12 w-12' />
                     <span>khainguyen1203@gmail.com</span>
                   </div>
                   <div className='flex items-center gap-2'>
