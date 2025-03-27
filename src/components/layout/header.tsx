@@ -55,6 +55,17 @@ export function Header() {
                   className='object-contain'
                 />
               </Link>
+              {/* Dark mode toggle for mobile */}
+              <div className='md:hidden'>
+                <Button
+                  variant='ghost'
+                  size='icon'
+                  onClick={() => dispatch(toggleTheme())}
+                  className='ml-2'
+                >
+                  {isDark ? <Sun className='h-5 w-5' /> : <Moon className='h-5 w-5' />}
+                </Button>
+              </div>
             </div>
 
             {/* Desktop Navigation */}
