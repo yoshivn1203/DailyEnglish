@@ -1,654 +1,530 @@
-import { subDays } from 'date-fns'
-
-// Comprehensive data structure with 10 days of words
 export const wordsByDay = [
   {
-    date: new Date(), // Today
+    date: new Date('2025-03-27'),
     words: [
       {
         id: 1,
-        english: 'meticulous',
-        vietnamese: 'tỉ mỉ, cẩn thận',
-        example: 'She is meticulous about keeping her financial records organized.'
+        english: 'appreciate',
+        vietnamese: 'đánh giá cao, cảm kích',
+        example: 'I really appreciate your help with this project.',
+        exampleTranslation: 'Tôi thực sự đánh giá cao sự giúp đỡ của bạn với dự án này.'
       },
       {
         id: 2,
-        english: 'resilient',
-        vietnamese: 'dẻo dai, kiên cường',
-        example: 'The community proved resilient in the face of economic hardship.'
+        english: 'consider',
+        vietnamese: 'xem xét, cân nhắc',
+        example: 'Please consider my suggestion before making a decision.',
+        exampleTranslation: 'Vui lòng xem xét đề xuất của tôi trước khi đưa ra quyết định.'
       },
       {
         id: 3,
-        english: 'ambiguous',
-        vietnamese: 'mơ hồ, không rõ ràng',
-        example: 'His ambiguous response left us unsure about his intentions.'
+        english: 'recommend',
+        vietnamese: 'giới thiệu, đề xuất',
+        example: 'Can you recommend a good restaurant nearby?',
+        exampleTranslation: 'Bạn có thể giới thiệu một nhà hàng ngon gần đây không?'
       },
       {
         id: 4,
-        english: 'pragmatic',
-        vietnamese: 'thực tế, thiết thực',
-        example: 'We need a pragmatic approach to solving this problem.'
+        english: 'apologize',
+        vietnamese: 'xin lỗi',
+        example: 'I apologize for being late to the meeting.',
+        exampleTranslation: 'Tôi xin lỗi vì đã đến muộn cuộc họp.'
       },
       {
         id: 5,
-        english: 'eloquent',
-        vietnamese: 'hùng biện, lưu loát',
-        example: 'Her eloquent speech moved the entire audience.'
+        english: 'discuss',
+        vietnamese: 'thảo luận, bàn bạc',
+        example: "Let's discuss this matter in private.",
+        exampleTranslation: 'Hãy thảo luận vấn đề này một cách riêng tư.'
       },
       {
         id: 6,
-        english: 'diligent',
-        vietnamese: 'chăm chỉ, cần cù',
-        example: 'His diligent study habits helped him excel in all subjects.'
+        english: 'suggest',
+        vietnamese: 'đề nghị, gợi ý',
+        example: 'I suggest we take a break and continue later.',
+        exampleTranslation: 'Tôi đề nghị chúng ta nghỉ giải lao và tiếp tục sau.'
       },
       {
         id: 7,
-        english: 'versatile',
-        vietnamese: 'đa năng, linh hoạt',
-        example: 'This versatile tool can be used for many different tasks.'
+        english: 'understand',
+        vietnamese: 'hiểu',
+        example: 'I completely understand your concerns.',
+        exampleTranslation: 'Tôi hoàn toàn hiểu những lo ngại của bạn.'
       },
       {
         id: 8,
-        english: 'profound',
-        vietnamese: 'sâu sắc, thâm thúy',
-        example: 'The book offers profound insights into human psychology.'
+        english: 'explain',
+        vietnamese: 'giải thích',
+        example: 'Could you explain how this works?',
+        exampleTranslation: 'Bạn có thể giải thích cách hoạt động của cái này không?'
       },
       {
         id: 9,
-        english: 'meticulous',
-        vietnamese: 'tỉ mỉ, cẩn thận',
-        example: 'The detective was meticulous in examining every piece of evidence.'
+        english: 'improve',
+        vietnamese: 'cải thiện, nâng cao',
+        example: 'We need to improve our communication skills.',
+        exampleTranslation: 'Chúng ta cần cải thiện kỹ năng giao tiếp của mình.'
       },
       {
         id: 10,
-        english: 'innovative',
-        vietnamese: 'đổi mới, sáng tạo',
-        example: 'The company is known for its innovative approach to product design.'
+        english: 'organize',
+        vietnamese: 'tổ chức, sắp xếp',
+        example: 'Let me organize my thoughts before I respond.',
+        exampleTranslation: 'Hãy để tôi sắp xếp suy nghĩ của mình trước khi trả lời.'
       }
     ]
   },
   {
-    date: subDays(new Date(), 1), // Yesterday
+    date: new Date('2025-03-28'),
     words: [
       {
         id: 1,
-        english: 'articulate',
-        vietnamese: 'nói năng lưu loát, rõ ràng',
-        example: 'She is an articulate speaker who can explain complex ideas clearly.'
+        english: 'accomplish',
+        vietnamese: 'hoàn thành, đạt được',
+        example: 'We accomplished all our goals for the quarter.',
+        exampleTranslation: 'Chúng tôi đã hoàn thành tất cả các mục tiêu trong quý.'
       },
       {
         id: 2,
-        english: 'nuance',
-        vietnamese: 'sắc thái, nét tinh tế',
-        example: 'The translation missed some of the nuances of the original text.'
+        english: 'hesitate',
+        vietnamese: 'do dự, ngần ngại',
+        example: "Don't hesitate to ask if you need help.",
+        exampleTranslation: 'Đừng ngần ngại hỏi nếu bạn cần giúp đỡ.'
       },
       {
         id: 3,
-        english: 'persevere',
-        vietnamese: 'kiên trì, bền bỉ',
-        example: 'You must persevere if you want to master a musical instrument.'
+        english: 'participate',
+        vietnamese: 'tham gia',
+        example: 'Everyone is encouraged to participate in the discussion.',
+        exampleTranslation: 'Mọi người được khuyến khích tham gia vào cuộc thảo luận.'
       },
       {
         id: 4,
-        english: 'scrutinize',
-        vietnamese: 'xem xét kỹ lưỡng',
-        example: 'The committee will scrutinize each application carefully.'
+        english: 'resolve',
+        vietnamese: 'giải quyết, quyết tâm',
+        example: 'We need to resolve this issue as soon as possible.',
+        exampleTranslation: 'Chúng ta cần giải quyết vấn đề này càng sớm càng tốt.'
       },
       {
         id: 5,
-        english: 'arbitrary',
-        vietnamese: 'tùy tiện, độc đoán',
-        example: 'The decision seemed arbitrary rather than based on clear criteria.'
+        english: 'compromise',
+        vietnamese: 'thỏa hiệp, nhượng bộ',
+        example: 'Both sides will need to compromise to reach an agreement.',
+        exampleTranslation: 'Cả hai bên sẽ cần phải thỏa hiệp để đạt được thỏa thuận.'
       },
       {
         id: 6,
-        english: 'concise',
-        vietnamese: 'ngắn gọn, súc tích',
-        example: 'Please keep your report concise and to the point.'
+        english: 'emphasize',
+        vietnamese: 'nhấn mạnh',
+        example: 'I want to emphasize the importance of being on time.',
+        exampleTranslation: 'Tôi muốn nhấn mạnh tầm quan trọng của việc đúng giờ.'
       },
       {
         id: 7,
-        english: 'empathy',
-        vietnamese: 'sự đồng cảm',
-        example: 'Doctors need to show empathy when dealing with patients.'
+        english: 'collaborate',
+        vietnamese: 'hợp tác',
+        example: 'Our teams need to collaborate more effectively.',
+        exampleTranslation: 'Các đội của chúng ta cần hợp tác hiệu quả hơn.'
       },
       {
         id: 8,
-        english: 'intricate',
-        vietnamese: 'phức tạp, tinh vi',
-        example: 'The watch has an intricate mechanism with many tiny parts.'
+        english: 'clarify',
+        vietnamese: 'làm rõ',
+        example: 'Could you clarify what you mean by that?',
+        exampleTranslation: 'Bạn có thể làm rõ ý của bạn là gì không?'
       },
       {
         id: 9,
-        english: 'prudent',
-        vietnamese: 'thận trọng, sáng suốt',
-        example: "It's prudent to save some money for emergencies."
+        english: 'negotiate',
+        vietnamese: 'đàm phán, thương lượng',
+        example: "We're trying to negotiate better terms for the contract.",
+        exampleTranslation: 'Chúng tôi đang cố gắng đàm phán các điều khoản tốt hơn cho hợp đồng.'
       },
       {
         id: 10,
-        english: 'skeptical',
-        vietnamese: 'hoài nghi, ngờ vực',
-        example: "She remained skeptical about the new treatment's effectiveness."
+        english: 'acknowledge',
+        vietnamese: 'thừa nhận, công nhận',
+        example: "It's important to acknowledge your mistakes and learn from them.",
+        exampleTranslation: 'Điều quan trọng là phải thừa nhận lỗi lầm của bạn và học hỏi từ chúng.'
       }
     ]
   },
   {
-    date: subDays(new Date(), 2),
+    date: new Date('2025-03-29'),
     words: [
       {
         id: 1,
-        english: 'dilemma',
-        vietnamese: 'tình thế khó xử',
-        example: 'He faced a dilemma: accept the promotion or stay in a job he loved.'
+        english: 'approach',
+        vietnamese: 'tiếp cận, phương pháp',
+        example: 'We need a different approach to solve this problem.',
+        exampleTranslation: 'Chúng ta cần một phương pháp khác để giải quyết vấn đề này.'
       },
       {
         id: 2,
-        english: 'elaborate',
-        vietnamese: 'phức tạp, tỉ mỉ',
-        example: 'The palace features elaborate decorations and intricate carvings.'
+        english: 'balance',
+        vietnamese: 'cân bằng',
+        example: "It's important to maintain a good work-life balance.",
+        exampleTranslation:
+          'Việc duy trì sự cân bằng tốt giữa công việc và cuộc sống là quan trọng.'
       },
       {
         id: 3,
-        english: 'facilitate',
-        vietnamese: 'tạo điều kiện, làm cho dễ dàng',
-        example: 'The new software is designed to facilitate communication between teams.'
+        english: 'coordinate',
+        vietnamese: 'phối hợp, điều phối',
+        example: 'Someone needs to coordinate the activities for the event.',
+        exampleTranslation: 'Ai đó cần phối hợp các hoạt động cho sự kiện.'
       },
       {
         id: 4,
-        english: 'imperative',
-        vietnamese: 'bắt buộc, cấp thiết',
-        example: 'It is imperative that we finish this project before the deadline.'
+        english: 'determine',
+        vietnamese: 'xác định, quyết định',
+        example: 'We need to determine the best course of action.',
+        exampleTranslation: 'Chúng ta cần xác định phương án hành động tốt nhất.'
       },
       {
         id: 5,
-        english: 'lucid',
-        vietnamese: 'rõ ràng, sáng sủa',
-        example: 'Even in his old age, he maintained a lucid mind.'
+        english: 'establish',
+        vietnamese: 'thiết lập, xác lập',
+        example: "Let's establish some ground rules before we begin.",
+        exampleTranslation: 'Hãy thiết lập một số quy tắc cơ bản trước khi chúng ta bắt đầu.'
       },
       {
         id: 6,
-        english: 'obsolete',
-        vietnamese: 'lỗi thời, không còn dùng',
-        example: 'This technology will soon become obsolete as newer versions emerge.'
+        english: 'generate',
+        vietnamese: 'tạo ra, phát sinh',
+        example: 'This new strategy should generate better results.',
+        exampleTranslation: 'Chiến lược mới này sẽ tạo ra kết quả tốt hơn.'
       },
       {
         id: 7,
-        english: 'pertinent',
-        vietnamese: 'thích hợp, liên quan',
-        example: 'Please only share information that is pertinent to the case.'
+        english: 'implement',
+        vietnamese: 'thực hiện, triển khai',
+        example: "We'll implement the new system next month.",
+        exampleTranslation: 'Chúng tôi sẽ triển khai hệ thống mới vào tháng tới.'
       },
       {
         id: 8,
-        english: 'reluctant',
-        vietnamese: 'miễn cưỡng, không muốn',
-        example: 'She was reluctant to share her personal experiences with strangers.'
+        english: 'maintain',
+        vietnamese: 'duy trì, bảo dưỡng',
+        example: "It's important to maintain regular communication with clients.",
+        exampleTranslation: 'Việc duy trì liên lạc thường xuyên với khách hàng là quan trọng.'
       },
       {
         id: 9,
-        english: 'substantial',
-        vietnamese: 'đáng kể, quan trọng',
-        example: 'The project requires a substantial investment of time and money.'
+        english: 'prioritize',
+        vietnamese: 'ưu tiên',
+        example: 'We need to prioritize our tasks for the week.',
+        exampleTranslation: 'Chúng ta cần ưu tiên các nhiệm vụ trong tuần.'
       },
       {
         id: 10,
-        english: 'transparent',
-        vietnamese: 'minh bạch, rõ ràng',
-        example: 'The company promises to be transparent about its environmental impact.'
+        english: 'respond',
+        vietnamese: 'phản hồi, đáp ứng',
+        example: 'Please respond to my email by tomorrow.',
+        exampleTranslation: 'Vui lòng phản hồi email của tôi vào ngày mai.'
       }
     ]
   },
   {
-    date: subDays(new Date(), 3),
+    date: new Date('2025-03-30'),
     words: [
       {
         id: 1,
-        english: 'advocate',
-        vietnamese: 'ủng hộ, biện hộ',
-        example: 'She advocates for better healthcare in underserved communities.'
-      },
-      {
-        id: 2,
-        english: 'consensus',
-        vietnamese: 'sự đồng thuận',
-        example: 'The team reached a consensus after hours of discussion.'
-      },
-      {
-        id: 3,
-        english: 'deteriorate',
-        vietnamese: 'xấu đi, suy thoái',
-        example: 'His health began to deteriorate rapidly after the diagnosis.'
-      },
-      {
-        id: 4,
-        english: 'enhance',
-        vietnamese: 'nâng cao, cải thiện',
-        example: 'These exercises will enhance your strength and flexibility.'
-      },
-      {
-        id: 5,
-        english: 'feasible',
-        vietnamese: 'khả thi, có thể thực hiện',
-        example: 'The engineers determined that the project was financially feasible.'
-      },
-      {
-        id: 6,
-        english: 'implicit',
-        vietnamese: 'ngầm, ẩn ý',
-        example: 'There was an implicit agreement that no one would discuss the matter.'
-      },
-      {
-        id: 7,
-        english: 'leverage',
-        vietnamese: 'tận dụng, đòn bẩy',
-        example: 'We can leverage our existing customer base to promote the new product.'
-      },
-      {
-        id: 8,
-        english: 'mitigate',
-        vietnamese: 'giảm nhẹ, làm dịu',
-        example: 'The company took steps to mitigate the environmental damage.'
-      },
-      {
-        id: 9,
-        english: 'prevalent',
-        vietnamese: 'phổ biến, thịnh hành',
-        example: 'This disease is particularly prevalent among older adults.'
-      },
-      {
-        id: 10,
-        english: 'robust',
-        vietnamese: 'mạnh mẽ, vững chắc',
-        example: 'We need a robust system that can handle high volumes of traffic.'
-      }
-    ]
-  },
-  {
-    date: subDays(new Date(), 4),
-    words: [
-      {
-        id: 1,
-        english: 'ambivalent',
-        vietnamese: 'lưỡng lự, có cảm xúc trái ngược',
-        example: 'She felt ambivalent about moving to a new city for the job.'
-      },
-      {
-        id: 2,
-        english: 'benevolent',
-        vietnamese: 'nhân từ, tốt bụng',
-        example: 'The benevolent donor wished to remain anonymous.'
-      },
-      {
-        id: 3,
-        english: 'comprehensive',
-        vietnamese: 'toàn diện, đầy đủ',
-        example: 'The report provides a comprehensive analysis of market trends.'
-      },
-      {
-        id: 4,
-        english: 'discrepancy',
-        vietnamese: 'sự khác biệt, mâu thuẫn',
-        example: "There's a discrepancy between the two accounts of what happened."
-      },
-      {
-        id: 5,
-        english: 'exemplify',
-        vietnamese: 'minh họa, làm gương',
-        example: "Her actions exemplify the company's commitment to customer service."
-      },
-      {
-        id: 6,
-        english: 'fluctuate',
-        vietnamese: 'dao động, biến động',
-        example: 'Stock prices tend to fluctuate based on market conditions.'
-      },
-      {
-        id: 7,
-        english: 'hypothetical',
-        vietnamese: 'giả thuyết, giả định',
-        example: "Let's consider a hypothetical situation where the project fails."
-      },
-      {
-        id: 8,
-        english: 'integrity',
-        vietnamese: 'tính chính trực, liêm chính',
-        example: 'His integrity was never questioned throughout his career.'
-      },
-      {
-        id: 9,
-        english: 'jurisdiction',
-        vietnamese: 'quyền tài phán, thẩm quyền',
-        example: 'This case falls under the jurisdiction of the federal court.'
-      },
-      {
-        id: 10,
-        english: 'legitimate',
-        vietnamese: 'hợp pháp, chính đáng',
-        example: 'She raised legitimate concerns about the safety of the procedure.'
-      }
-    ]
-  },
-  {
-    date: subDays(new Date(), 5),
-    words: [
-      {
-        id: 1,
-        english: 'accommodate',
+        english: 'adjust',
         vietnamese: 'điều chỉnh, thích nghi',
-        example: 'The hotel can accommodate up to 200 guests for the conference.'
+        example: 'We may need to adjust our plans based on the weather forecast.',
+        exampleTranslation: 'Chúng ta có thể cần điều chỉnh kế hoạch dựa trên dự báo thời tiết.'
       },
       {
         id: 2,
-        english: 'brevity',
-        vietnamese: 'sự ngắn gọn, súc tích',
-        example: 'The speaker was known for his brevity and powerful messages.'
+        english: 'benefit',
+        vietnamese: 'lợi ích, có lợi',
+        example: 'This change will benefit everyone in the long run.',
+        exampleTranslation: 'Sự thay đổi này sẽ có lợi cho tất cả mọi người về lâu dài.'
       },
       {
         id: 3,
-        english: 'coherent',
-        vietnamese: 'mạch lạc, liên kết',
-        example: 'She presented a coherent argument that convinced the committee.'
+        english: 'communicate',
+        vietnamese: 'giao tiếp, truyền đạt',
+        example: "It's essential to communicate clearly in a professional environment.",
+        exampleTranslation:
+          'Việc giao tiếp rõ ràng trong môi trường chuyên nghiệp là điều cần thiết.'
       },
       {
         id: 4,
-        english: 'delegate',
-        vietnamese: 'ủy thác, giao phó',
-        example: 'A good manager knows when to delegate responsibilities to team members.'
+        english: 'develop',
+        vietnamese: 'phát triển',
+        example: 'We need to develop a better strategy for customer retention.',
+        exampleTranslation: 'Chúng ta cần phát triển một chiến lược tốt hơn để giữ chân khách hàng.'
       },
       {
         id: 5,
-        english: 'empirical',
-        vietnamese: 'thực nghiệm, dựa trên kinh nghiệm',
-        example: 'The study provides empirical evidence to support the theory.'
+        english: 'encourage',
+        vietnamese: 'khuyến khích, động viên',
+        example: 'Good managers encourage their team members to share ideas.',
+        exampleTranslation:
+          'Những người quản lý tốt khuyến khích các thành viên trong nhóm chia sẻ ý tưởng.'
       },
       {
         id: 6,
-        english: 'frugal',
-        vietnamese: 'tiết kiệm, không hoang phí',
-        example: 'Living a frugal lifestyle helped them save for early retirement.'
+        english: 'focus',
+        vietnamese: 'tập trung',
+        example: "Let's focus on solving one problem at a time.",
+        exampleTranslation: 'Hãy tập trung giải quyết từng vấn đề một.'
       },
       {
         id: 7,
-        english: 'gratify',
-        vietnamese: 'làm hài lòng, thỏa mãn',
-        example: 'It was gratifying to see the positive impact of our work.'
+        english: 'handle',
+        vietnamese: 'xử lý, đối phó',
+        example: 'How do you handle stress in your daily life?',
+        exampleTranslation: 'Bạn xử lý căng thẳng trong cuộc sống hàng ngày như thế nào?'
       },
       {
         id: 8,
-        english: 'hierarchy',
-        vietnamese: 'hệ thống cấp bậc',
-        example: 'The company has a clear hierarchy with well-defined roles.'
+        english: 'involve',
+        vietnamese: 'liên quan, tham gia',
+        example: 'We should involve the marketing team in this discussion.',
+        exampleTranslation: 'Chúng ta nên để đội marketing tham gia vào cuộc thảo luận này.'
       },
       {
         id: 9,
-        english: 'incentive',
-        vietnamese: 'động lực, khuyến khích',
-        example: 'The bonus serves as an incentive for employees to exceed their targets.'
+        english: 'manage',
+        vietnamese: 'quản lý, xử lý',
+        example: 'How do you manage to balance work and family?',
+        exampleTranslation: 'Bạn quản lý việc cân bằng công việc và gia đình như thế nào?'
       },
       {
         id: 10,
-        english: 'juxtapose',
-        vietnamese: 'đặt cạnh nhau, so sánh',
-        example: 'The exhibition juxtaposes traditional and modern art styles.'
+        english: 'provide',
+        vietnamese: 'cung cấp',
+        example: 'Can you provide more details about the project?',
+        exampleTranslation: 'Bạn có thể cung cấp thêm chi tiết về dự án không?'
       }
     ]
   },
   {
-    date: subDays(new Date(), 6),
+    date: new Date('2025-03-31'),
     words: [
       {
         id: 1,
-        english: 'analogy',
-        vietnamese: 'sự tương tự, so sánh',
-        example: 'He used an analogy to explain the complex scientific concept.'
+        english: 'achieve',
+        vietnamese: 'đạt được, thành công',
+        example: 'What do you hope to achieve in your new position?',
+        exampleTranslation: 'Bạn hy vọng đạt được điều gì trong vị trí mới của mình?'
       },
       {
         id: 2,
-        english: 'bias',
-        vietnamese: 'thành kiến, thiên vị',
-        example: 'Journalists should report news without bias or personal opinion.'
+        english: 'believe',
+        vietnamese: 'tin, tin tưởng',
+        example: 'I believe we can finish this project on time.',
+        exampleTranslation: 'Tôi tin rằng chúng ta có thể hoàn thành dự án này đúng hạn.'
       },
       {
         id: 3,
-        english: 'concurrent',
-        vietnamese: 'đồng thời, song song',
-        example: 'The company is working on several concurrent projects.'
+        english: 'contribute',
+        vietnamese: 'đóng góp',
+        example: 'Everyone should contribute to keeping the office clean.',
+        exampleTranslation: 'Mọi người nên đóng góp vào việc giữ văn phòng sạch sẽ.'
       },
       {
         id: 4,
-        english: 'deficient',
-        vietnamese: 'thiếu, không đầy đủ',
-        example: 'The soil is deficient in essential nutrients for growing vegetables.'
+        english: 'decide',
+        vietnamese: 'quyết định',
+        example: 'We need to decide on a venue for the company event.',
+        exampleTranslation: 'Chúng ta cần quyết định địa điểm cho sự kiện công ty.'
       },
       {
         id: 5,
-        english: 'enigma',
-        vietnamese: 'điều bí ẩn, câu đố',
-        example: 'The origin of the ancient structure remains an enigma to archaeologists.'
+        english: 'expect',
+        vietnamese: 'mong đợi, dự kiến',
+        example: 'What do you expect from this training program?',
+        exampleTranslation: 'Bạn mong đợi điều gì từ chương trình đào tạo này?'
       },
       {
         id: 6,
-        english: 'fallacy',
-        vietnamese: 'ngụy biện, sai lầm',
-        example: "It's a common fallacy that wealth always brings happiness."
+        english: 'follow',
+        vietnamese: 'theo dõi, tuân theo',
+        example: 'Please follow the instructions carefully.',
+        exampleTranslation: 'Vui lòng tuân theo hướng dẫn một cách cẩn thận.'
       },
       {
         id: 7,
-        english: 'generic',
-        vietnamese: 'chung chung, không đặc trưng',
-        example: 'The report contained only generic recommendations, not specific actions.'
+        english: 'identify',
+        vietnamese: 'nhận diện, xác định',
+        example: 'Can you identify the main issues we need to address?',
+        exampleTranslation: 'Bạn có thể xác định các vấn đề chính mà chúng ta cần giải quyết không?'
       },
       {
         id: 8,
-        english: 'holistic',
-        vietnamese: 'toàn diện, tổng thể',
-        example: 'We take a holistic approach to health, considering mind and body.'
+        english: 'mention',
+        vietnamese: 'đề cập, nhắc đến',
+        example: 'Did she mention when she would return?',
+        exampleTranslation: 'Cô ấy có đề cập khi nào sẽ trở lại không?'
       },
       {
         id: 9,
-        english: 'imminent',
-        vietnamese: 'sắp xảy ra, cận kề',
-        example: 'The storm is imminent; we should seek shelter immediately.'
+        english: 'offer',
+        vietnamese: 'đề nghị, cung cấp',
+        example: 'They offered to help us move to the new office.',
+        exampleTranslation: 'Họ đã đề nghị giúp chúng tôi chuyển đến văn phòng mới.'
       },
       {
         id: 10,
-        english: 'jargon',
-        vietnamese: 'biệt ngữ, thuật ngữ chuyên môn',
-        example: 'The report was full of technical jargon that confused non-specialists.'
+        english: 'prepare',
+        vietnamese: 'chuẩn bị',
+        example: "Let's prepare for the meeting tomorrow.",
+        exampleTranslation: 'Hãy chuẩn bị cho cuộc họp ngày mai.'
       }
     ]
   },
   {
-    date: subDays(new Date(), 7),
+    date: new Date('2025-04-01'),
     words: [
       {
         id: 1,
-        english: 'adamant',
-        vietnamese: 'kiên quyết, không lay chuyển',
-        example: 'She was adamant about not changing the project deadline.'
+        english: 'address',
+        vietnamese: 'giải quyết, đề cập',
+        example: 'We need to address these customer complaints immediately.',
+        exampleTranslation:
+          'Chúng ta cần giải quyết những khiếu nại của khách hàng này ngay lập tức.'
       },
       {
         id: 2,
-        english: 'banal',
-        vietnamese: 'tầm thường, sáo rỗng',
-        example: 'The speech was filled with banal observations about success.'
+        english: 'confirm',
+        vietnamese: 'xác nhận',
+        example: "Can you confirm that you'll attend the meeting?",
+        exampleTranslation: 'Bạn có thể xác nhận rằng bạn sẽ tham dự cuộc họp không?'
       },
       {
         id: 3,
-        english: 'catalyst',
-        vietnamese: 'chất xúc tác, yếu tố thúc đẩy',
-        example: 'Her research served as a catalyst for new developments in the field.'
+        english: 'describe',
+        vietnamese: 'mô tả',
+        example: 'Could you describe your experience with this software?',
+        exampleTranslation: 'Bạn có thể mô tả kinh nghiệm của mình với phần mềm này không?'
       },
       {
         id: 4,
-        english: 'daunting',
-        vietnamese: 'đáng nản lòng, khó khăn',
-        example: 'The task of renovating the entire house seemed daunting at first.'
+        english: 'evaluate',
+        vietnamese: 'đánh giá',
+        example: 'We need to evaluate the results of the campaign.',
+        exampleTranslation: 'Chúng ta cần đánh giá kết quả của chiến dịch.'
       },
       {
         id: 5,
-        english: 'elusive',
-        vietnamese: 'khó nắm bắt, khó hiểu',
-        example: 'Success remained elusive despite his best efforts.'
+        english: 'inform',
+        vietnamese: 'thông báo',
+        example: 'Please inform everyone about the schedule change.',
+        exampleTranslation: 'Vui lòng thông báo cho mọi người về sự thay đổi lịch trình.'
       },
       {
         id: 6,
-        english: 'facade',
-        vietnamese: 'mặt tiền, vẻ bề ngoài',
-        example: 'Behind his cheerful facade, he was dealing with serious problems.'
+        english: 'observe',
+        vietnamese: 'quan sát, nhận xét',
+        example: 'I observed that the team seems more motivated lately.',
+        exampleTranslation: 'Tôi nhận thấy rằng đội ngũ dường như có động lực hơn gần đây.'
       },
       {
         id: 7,
-        english: 'galvanize',
-        vietnamese: 'kích thích, thúc đẩy',
-        example: 'Her speech galvanized the team into taking immediate action.'
+        english: 'prefer',
+        vietnamese: 'thích hơn, ưa thích',
+        example: 'Do you prefer working from home or in the office?',
+        exampleTranslation: 'Bạn thích làm việc tại nhà hay tại văn phòng hơn?'
       },
       {
         id: 8,
-        english: 'haphazard',
-        vietnamese: 'ngẫu nhiên, lộn xộn',
-        example: 'The documents were arranged in a haphazard manner on the desk.'
+        english: 'request',
+        vietnamese: 'yêu cầu, đề nghị',
+        example: "I'd like to request some time off next month.",
+        exampleTranslation: 'Tôi muốn yêu cầu nghỉ phép vào tháng tới.'
       },
       {
         id: 9,
-        english: 'impeccable',
-        vietnamese: 'hoàn hảo, không tì vết',
-        example: 'He has an impeccable record of customer service.'
+        english: 'support',
+        vietnamese: 'hỗ trợ, ủng hộ',
+        example: 'The management team fully supports this initiative.',
+        exampleTranslation: 'Đội ngũ quản lý hoàn toàn ủng hộ sáng kiến này.'
       },
       {
         id: 10,
-        english: 'judiciously',
-        vietnamese: 'thận trọng, sáng suốt',
-        example: 'We must use our limited resources judiciously.'
+        english: 'verify',
+        vietnamese: 'xác minh, kiểm tra',
+        example: 'Please verify that all the information is correct.',
+        exampleTranslation: 'Vui lòng xác minh rằng tất cả thông tin là chính xác.'
       }
     ]
   },
   {
-    date: subDays(new Date(), 8),
+    date: new Date('2025-04-02'),
     words: [
       {
         id: 1,
-        english: 'alleviate',
-        vietnamese: 'giảm nhẹ, làm dịu',
-        example: 'The medication should alleviate the symptoms within an hour.'
+        english: 'arrange',
+        vietnamese: 'sắp xếp, bố trí',
+        example: 'Can you arrange a meeting with the client next week?',
+        exampleTranslation: 'Bạn có thể sắp xếp một cuộc họp với khách hàng vào tuần tới không?'
       },
       {
         id: 2,
-        english: 'burgeon',
-        vietnamese: 'phát triển nhanh, nở rộ',
-        example: 'The tech industry has burgeoned in this region over the past decade.'
+        english: 'complete',
+        vietnamese: 'hoàn thành, hoàn tất',
+        example: 'Have you completed the report yet?',
+        exampleTranslation: 'Bạn đã hoàn thành báo cáo chưa?'
       },
       {
         id: 3,
-        english: 'conundrum',
-        vietnamese: 'câu đố, vấn đề khó',
-        example: 'The team faced a conundrum: how to increase quality while reducing costs.'
+        english: 'demonstrate',
+        vietnamese: 'chứng minh, minh họa',
+        example: 'Let me demonstrate how this feature works.',
+        exampleTranslation: 'Hãy để tôi minh họa cách tính năng này hoạt động.'
       },
       {
         id: 4,
-        english: 'disparity',
-        vietnamese: 'sự chênh lệch, khác biệt',
-        example: "There's a significant disparity in income between the two regions."
+        english: 'estimate',
+        vietnamese: 'ước tính, dự đoán',
+        example: 'Can you estimate how long this will take?',
+        exampleTranslation: 'Bạn có thể ước tính việc này sẽ mất bao lâu không?'
       },
       {
         id: 5,
-        english: 'ephemeral',
-        vietnamese: 'ngắn ngủi, tạm thời',
-        example: 'Fame can be ephemeral, especially in the entertainment industry.'
+        english: 'include',
+        vietnamese: 'bao gồm',
+        example: 'Does the price include delivery?',
+        exampleTranslation: 'Giá có bao gồm phí giao hàng không?'
       },
       {
         id: 6,
-        english: 'fathom',
-        vietnamese: 'hiểu thấu, lĩnh hội',
-        example: 'I cannot fathom why anyone would make such a risky decision.'
+        english: 'occur',
+        vietnamese: 'xảy ra, diễn ra',
+        example: 'When did the problem first occur?',
+        exampleTranslation: 'Vấn đề lần đầu xảy ra khi nào?'
       },
       {
         id: 7,
-        english: 'germane',
-        vietnamese: 'liên quan, thích hợp',
-        example: 'His comments were not germane to the topic under discussion.'
+        english: 'process',
+        vietnamese: 'xử lý, quy trình',
+        example: 'It takes time to process all these applications.',
+        exampleTranslation: 'Cần thời gian để xử lý tất cả các đơn đăng ký này.'
       },
       {
         id: 8,
-        english: 'harbinger',
-        vietnamese: 'điềm báo, người báo trước',
-        example: 'The first few drops of rain were a harbinger of the storm to come.'
+        english: 'reduce',
+        vietnamese: 'giảm, cắt giảm',
+        example: 'We need to reduce our expenses this quarter.',
+        exampleTranslation: 'Chúng ta cần cắt giảm chi phí trong quý này.'
       },
       {
         id: 9,
-        english: 'idiosyncrasy',
-        vietnamese: 'đặc điểm riêng, tính cách đặc biệt',
-        example: 'One of his idiosyncrasies is always arranging his pens by color.'
+        english: 'schedule',
+        vietnamese: 'lên lịch, sắp xếp',
+        example: "Let's schedule our next meeting for Friday.",
+        exampleTranslation: 'Hãy lên lịch cuộc họp tiếp theo vào thứ Sáu.'
       },
       {
         id: 10,
-        english: 'judicious',
-        vietnamese: 'sáng suốt, khôn ngoan',
-        example: 'Making judicious investments is key to long-term financial security.'
-      }
-    ]
-  },
-  {
-    date: subDays(new Date(), 9),
-    words: [
-      {
-        id: 1,
-        english: 'astute',
-        vietnamese: 'sắc sảo, tinh tường',
-        example: 'Her astute observations helped identify the root of the problem.'
-      },
-      {
-        id: 2,
-        english: 'belligerent',
-        vietnamese: 'hiếu chiến, hung hăng',
-        example: 'The belligerent customer refused to calm down despite our efforts.'
-      },
-      {
-        id: 3,
-        english: 'cacophony',
-        vietnamese: 'âm thanh hỗn tạp, chói tai',
-        example: 'The cacophony of car horns made it impossible to concentrate.'
-      },
-      {
-        id: 4,
-        english: 'dichotomy',
-        vietnamese: 'sự phân đôi, đối lập',
-        example: "There's a clear dichotomy between what he says and what he does."
-      },
-      {
-        id: 5,
-        english: 'egregious',
-        vietnamese: 'quá đáng, tệ hại',
-        example: 'The report highlighted several egregious violations of safety protocols.'
-      },
-      {
-        id: 6,
-        english: 'fastidious',
-        vietnamese: 'kỹ tính, cầu toàn',
-        example: 'He is fastidious about keeping his workspace organized.'
-      },
-      {
-        id: 7,
-        english: 'garrulous',
-        vietnamese: 'lắm lời, nói nhiều',
-        example: 'The garrulous tour guide barely paused for breath during the entire tour.'
-      },
-      {
-        id: 8,
-        english: 'hedonistic',
-        vietnamese: 'theo chủ nghĩa khoái lạc',
-        example: 'The resort caters to those seeking a hedonistic vacation experience.'
-      },
-      {
-        id: 9,
-        english: 'iconoclast',
-        vietnamese: 'người phá vỡ truyền thống',
-        example: 'As an iconoclast in the art world, she challenged conventional techniques.'
-      },
-      {
-        id: 10,
-        english: 'jubilant',
-        vietnamese: 'hân hoan, vui mừng',
-        example: 'The team was jubilant after winning the championship.'
+        english: 'update',
+        vietnamese: 'cập nhật',
+        example: 'Can you update me on the project status?',
+        exampleTranslation: 'Bạn có thể cập nhật cho tôi về tình trạng dự án không?'
       }
     ]
   }

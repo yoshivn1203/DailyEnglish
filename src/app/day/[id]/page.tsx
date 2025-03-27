@@ -51,7 +51,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
   }
 
   return (
-    <div className='container mx-auto p-4 sm:p-6 max-w-4xl'>
+    <div className='container mx-auto p-4 sm:p-6 max-w-6xl'>
       <Button variant='outline' onClick={() => router.push('/')}>
         <ArrowLeft className='h-4 w-4 mr-2' />
         Back
@@ -60,7 +60,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
         Words for {format(day.date, 'dd/MM/yyyy')}
       </h1>
 
-      <div className='mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6'>
+      <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6'>
         {day.words.map(word => (
           <div
             key={word.id}
@@ -85,10 +85,13 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
             {expandedWordId === word.id && (
               <div className='mt-3 space-y-2 animate-fadeIn'>
                 <p>
-                  <span className='font-medium'>Meaning:</span> {word.vietnamese}
+                  <span className='font-medium'>Dịch:</span> {word.vietnamese}
                 </p>
                 <p>
-                  <span className='font-medium'>Example:</span> {word.example}
+                  <span className='font-medium'>Ví dụ:</span> {word.example}
+                </p>
+                <p>
+                  <span className='font-medium'>Dịch ví dụ:</span> {word.exampleTranslation}
                 </p>
               </div>
             )}
