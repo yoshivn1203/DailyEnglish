@@ -3,7 +3,7 @@
 import { format } from 'date-fns'
 import { ArrowLeft, Volume2 } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { MouseEvent, use, useState } from 'react'
+import { MouseEvent, use, useCallback, useState } from 'react'
 
 import { Button } from '@/components/ui/button'
 import { wordsByDay } from '@/data/words'
@@ -23,6 +23,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
   const [showTest, setShowTest] = useState(false)
   const [userAnswers, setUserAnswers] = useState<{ [key: string]: string }>({})
   const [answeredQuestions, setAnsweredQuestions] = useState<Set<string>>(new Set())
+  const [questions, setQuestions] = useState<TestQuestion[]>([])
 
   // Handle invalid index
   if (isNaN(dayIndex) || dayIndex < 0 || dayIndex >= wordsByDay.length) {
@@ -36,19 +37,23 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
 
   const day = wordsByDay[dayIndex]
 
-  // Generate test questions
-  const generateQuestions = (): TestQuestion[] => {
+  // Generate test questions only when needed
+  const generateQuestions = useCallback(() => {
     return day.words.map(currentWord => {
-      // Get all possible Vietnamese translations from this day's words
-      const allTranslations = day.words.map(w => w.vietnamese)
+      // Create a fixed-size array of indices for random selection
+      const availableIndices = new Array(day.words.length).fill(0).map((_, i) => i)
+      const currentIndex = day.words.findIndex(w => w.english === currentWord.english)
 
-      // Filter out the correct answer and get 3 random wrong answers
-      const wrongAnswers = allTranslations
-        .filter(t => t !== currentWord.vietnamese)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3)
+      // Remove current word's index
+      availableIndices.splice(currentIndex, 1)
 
-      // Combine correct and wrong answers, then shuffle
+      // Get 3 random indices for wrong answers
+      const wrongIndices = availableIndices.sort(() => Math.random() - 0.5).slice(0, 3)
+
+      // Get wrong answers using the indices
+      const wrongAnswers = wrongIndices.map(i => day.words[i].vietnamese)
+
+      // Combine and shuffle options
       const options = [...wrongAnswers, currentWord.vietnamese].sort(() => Math.random() - 0.5)
 
       return {
@@ -57,9 +62,17 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
         options
       }
     })
-  }
+  }, [day.words])
 
-  const [questions] = useState<TestQuestion[]>(() => generateQuestions())
+  // Initialize questions only when switching to test mode
+  const handleShowTest = useCallback(() => {
+    if (!showTest) {
+      setQuestions(generateQuestions())
+    }
+    setShowTest(!showTest)
+    setUserAnswers({})
+    setAnsweredQuestions(new Set())
+  }, [showTest, generateQuestions])
 
   // Handle answer selection
   const handleAnswerSelect = (word: string, answer: string) => {
@@ -119,11 +132,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
 
       <div className='flex justify-end mt-4'>
         <Button
-          onClick={() => {
-            setShowTest(!showTest)
-            setUserAnswers({})
-            setAnsweredQuestions(new Set())
-          }}
+          onClick={handleShowTest}
           className={`
             text-white font-semibold px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700
             transition-all duration-300 transform hover:scale-105
