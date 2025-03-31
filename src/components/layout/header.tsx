@@ -76,11 +76,11 @@ export function Header() {
               <Button variant='ghost' className='font-semibold'>
                 Reviews
               </Button> */}
-              <Link href='/'>
+              {/* <Link href='/'>
                 <Button variant='ghost' className='font-semibold'>
                   About Me
                 </Button>
-              </Link>
+              </Link> */}
               {/* <Link href='/'>
                 <Button variant='destructive' className='font-semibold'>
                   ACTION BUTTON
@@ -117,7 +117,7 @@ export function Header() {
                 ACTION BUTTON
               </Button>
             </Link> */}
-            <Link href='/' onClick={() => setIsMenuOpen(false)}>
+            {/* <Link href='/' onClick={() => setIsMenuOpen(false)}>
               <Button variant='ghost' className='w-full justify-start font-semibold'>
                 How It Works
               </Button>
@@ -125,12 +125,12 @@ export function Header() {
             <Link href='/' onClick={() => setIsMenuOpen(false)}></Link>
             <Button variant='ghost' className='w-full justify-start font-semibold'>
               Reviews
-            </Button>
-            <Link href='/' onClick={() => setIsMenuOpen(false)}>
+            </Button> */}
+            {/* <Link href='/' onClick={() => setIsMenuOpen(false)}>
               <Button variant='ghost' className='w-full justify-start font-semibold'>
                 About Me
               </Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
