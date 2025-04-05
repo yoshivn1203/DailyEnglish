@@ -36,13 +36,18 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
   }
 
   const day = wordsByDay[dayIndex]
+  // Create new day object with randomized words but keeping the same structure
+  const randomizedDay = {
+    ...day,
+    words: [...day.words].sort(() => Math.random() - 0.5)
+  }
 
   // Generate test questions only when needed
   const generateQuestions = useCallback(() => {
-    return day.words.map(currentWord => {
+    return randomizedDay.words.map(currentWord => {
       // Create a fixed-size array of indices for random selection
-      const availableIndices = new Array(day.words.length).fill(0).map((_, i) => i)
-      const currentIndex = day.words.findIndex(w => w.english === currentWord.english)
+      const availableIndices = new Array(randomizedDay.words.length).fill(0).map((_, i) => i)
+      const currentIndex = randomizedDay.words.findIndex(w => w.english === currentWord.english)
 
       // Remove current word's index
       availableIndices.splice(currentIndex, 1)
@@ -51,7 +56,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
       const wrongIndices = availableIndices.sort(() => Math.random() - 0.5).slice(0, 3)
 
       // Get wrong answers using the indices
-      const wrongAnswers = wrongIndices.map(i => day.words[i].vietnamese)
+      const wrongAnswers = wrongIndices.map(i => randomizedDay.words[i].vietnamese)
 
       // Combine and shuffle options
       const options = [...wrongAnswers, currentWord.vietnamese].sort(() => Math.random() - 0.5)
@@ -62,7 +67,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
         options
       }
     })
-  }, [day.words])
+  }, [randomizedDay.words])
 
   // Initialize questions only when switching to test mode
   const handleShowTest = useCallback(() => {
@@ -127,7 +132,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
         Back
       </Button>
       <h1 className='mt-3 text-xl sm:text-xl font-bold'>
-        Words for {format(day.date, 'dd/MM/yyyy')}
+        Words for {format(randomizedDay.date, 'dd/MM/yyyy')}
       </h1>
 
       <div className='flex justify-end mt-4'>
@@ -144,7 +149,7 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
 
       {!showTest ? (
         <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 items-start'>
-          {day.words.map(word => (
+          {randomizedDay.words.map(word => (
             <div
               key={word.id}
               className={`border rounded-lg p-4 shadow-md transition-all duration-300 cursor-pointer h-fit ${
