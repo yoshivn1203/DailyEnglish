@@ -527,5 +527,285 @@ export const wordsByDay = [
         exampleTranslation: 'Bạn có thể cập nhật cho tôi về tình trạng dự án không?'
       }
     ]
+  },
+  {
+    date: new Date('2025-04-05'),
+    words: [
+      {
+        id: 11,
+        english: 'anticipate',
+        vietnamese: 'dự đoán, mong đợi',
+        example: 'We anticipate a strong turnout at the event.',
+        exampleTranslation: 'Chúng tôi dự đoán sẽ có nhiều người tham dự sự kiện.'
+      },
+      {
+        id: 12,
+        english: 'compile',
+        vietnamese: 'biên soạn, thu thập',
+        example: 'She compiled a list of all the guests.',
+        exampleTranslation: 'Cô ấy đã biên soạn danh sách tất cả các khách mời.'
+      },
+      {
+        id: 13,
+        english: 'dispute',
+        vietnamese: 'tranh cãi, phản đối',
+        example: 'They disputed the decision for hours.',
+        exampleTranslation: 'Họ đã tranh cãi về quyết định đó hàng giờ.'
+      },
+      {
+        id: 14,
+        english: 'persuade',
+        vietnamese: 'thuyết phục',
+        example: 'Can you persuade him to join us?',
+        exampleTranslation: 'Bạn có thể thuyết phục anh ấy tham gia cùng chúng ta không?'
+      },
+      {
+        id: 15,
+        english: 'resolve',
+        vietnamese: 'giải quyết',
+        example: 'We need to resolve this issue quickly.',
+        exampleTranslation: 'Chúng ta cần giải quyết vấn đề này nhanh chóng.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-06'),
+    words: [
+      {
+        id: 16,
+        english: 'acquire',
+        vietnamese: 'thu được, đạt được',
+        example: 'She acquired new skills during the course.',
+        exampleTranslation: 'Cô ấy đã học được những kỹ năng mới trong khóa học.'
+      },
+      {
+        id: 17,
+        english: 'clarify',
+        vietnamese: 'làm rõ, giải thích',
+        example: 'Can you clarify what you mean by that?',
+        exampleTranslation: 'Bạn có thể giải thích rõ ý bạn là gì không?'
+      },
+      {
+        id: 18,
+        english: 'evaluate',
+        vietnamese: 'đánh giá',
+        example: 'We need to evaluate the project’s success.',
+        exampleTranslation: 'Chúng ta cần đánh giá sự thành công của dự án.'
+      },
+      {
+        id: 19,
+        english: 'imply',
+        vietnamese: 'ngụ ý',
+        example: 'Her silence implied agreement.',
+        exampleTranslation: 'Sự im lặng của cô ấy ngụ ý đồng ý.'
+      },
+      {
+        id: 20,
+        english: 'sustain',
+        vietnamese: 'duy trì, chịu đựng',
+        example: 'Can we sustain this level of effort?',
+        exampleTranslation: 'Chúng ta có thể duy trì mức độ nỗ lực này không?'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-07'),
+    words: [
+      {
+        id: 21,
+        english: 'adapt',
+        vietnamese: 'thích nghi',
+        example: 'You’ll need to adapt to the new system.',
+        exampleTranslation: 'Bạn sẽ cần thích nghi với hệ thống mới.'
+      },
+      {
+        id: 22,
+        english: 'convey',
+        vietnamese: 'truyền đạt',
+        example: 'He conveyed his ideas clearly.',
+        exampleTranslation: 'Anh ấy đã truyền đạt ý tưởng của mình một cách rõ ràng.'
+      },
+      {
+        id: 23,
+        english: 'exceed',
+        vietnamese: 'vượt qua',
+        example: 'Sales this month exceeded expectations.',
+        exampleTranslation: 'Doanh số tháng này vượt quá kỳ vọng.'
+      },
+      {
+        id: 24,
+        english: 'prohibit',
+        vietnamese: 'cấm',
+        example: 'Smoking is prohibited in this area.',
+        exampleTranslation: 'Hút thuốc bị cấm ở khu vực này.'
+      },
+      {
+        id: 25,
+        english: 'subtle',
+        vietnamese: 'tinh tế, khó nhận ra',
+        example: 'There’s a subtle difference between the two.',
+        exampleTranslation: 'Có một sự khác biệt tinh tế giữa hai cái đó.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-08'),
+    words: [
+      {
+        id: 26,
+        english: 'assess',
+        vietnamese: 'đánh giá, ước lượng',
+        example: 'We need to assess the risks involved.',
+        exampleTranslation: 'Chúng ta cần đánh giá các rủi ro liên quan.'
+      },
+      {
+        id: 27,
+        english: 'cooperate',
+        vietnamese: 'hợp tác',
+        example: 'They refused to cooperate with the team.',
+        exampleTranslation: 'Họ từ chối hợp tác với nhóm.'
+      },
+      {
+        id: 28,
+        english: 'eliminate',
+        vietnamese: 'loại bỏ',
+        example: 'We must eliminate all errors in the report.',
+        exampleTranslation: 'Chúng ta phải loại bỏ tất cả lỗi trong báo cáo.'
+      },
+      {
+        id: 29,
+        english: 'interpret',
+        vietnamese: 'diễn giải, hiểu',
+        example: 'How do you interpret these results?',
+        exampleTranslation: 'Bạn diễn giải những kết quả này như thế nào?'
+      },
+      {
+        id: 30,
+        english: 'reveal',
+        vietnamese: 'tiết lộ',
+        example: 'She revealed a surprising secret.',
+        exampleTranslation: 'Cô ấy tiết lộ một bí mật đáng ngạc nhiên.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-09'),
+    words: [
+      {
+        id: 31,
+        english: 'abandon',
+        vietnamese: 'từ bỏ',
+        example: 'They had to abandon the project.',
+        exampleTranslation: 'Họ đã phải từ bỏ dự án.'
+      },
+      {
+        id: 32,
+        english: 'concede',
+        vietnamese: 'thừa nhận, nhượng bộ',
+        example: 'He conceded defeat after the vote.',
+        exampleTranslation: 'Anh ấy thừa nhận thất bại sau cuộc bỏ phiếu.'
+      },
+      {
+        id: 33,
+        english: 'distinguish',
+        vietnamese: 'phân biệt',
+        example: 'Can you distinguish between these colors?',
+        exampleTranslation: 'Bạn có thể phân biệt giữa các màu này không?'
+      },
+      {
+        id: 34,
+        english: 'manipulate',
+        vietnamese: 'thao túng, điều khiển',
+        example: 'He manipulated the data to his advantage.',
+        exampleTranslation: 'Anh ấy thao túng dữ liệu để có lợi cho mình.'
+      },
+      {
+        id: 35,
+        english: 'reinforce',
+        vietnamese: 'củng cố, tăng cường',
+        example: 'We need to reinforce the structure.',
+        exampleTranslation: 'Chúng ta cần củng cố cấu trúc.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-10'),
+    words: [
+      {
+        id: 36,
+        english: 'compensate',
+        vietnamese: 'bù đắp',
+        example: 'They compensated her for the extra work.',
+        exampleTranslation: 'Họ đã bù đắp cho cô ấy vì công việc thêm.'
+      },
+      {
+        id: 37,
+        english: 'disrupt',
+        vietnamese: 'làm gián đoạn',
+        example: 'The storm disrupted our plans.',
+        exampleTranslation: 'Cơn bão đã làm gián đoạn kế hoạch của chúng tôi.'
+      },
+      {
+        id: 38,
+        english: 'inspire',
+        vietnamese: 'truyền cảm hứng',
+        example: 'Her speech inspired everyone in the room.',
+        exampleTranslation: 'Bài phát biểu của cô ấy truyền cảm hứng cho mọi người trong phòng.'
+      },
+      {
+        id: 39,
+        english: 'neglect',
+        vietnamese: 'bỏ bê, lơ là',
+        example: 'Don’t neglect your responsibilities.',
+        exampleTranslation: 'Đừng bỏ bê trách nhiệm của bạn.'
+      },
+      {
+        id: 40,
+        english: 'speculate',
+        vietnamese: 'suy đoán',
+        example: 'People began to speculate about his absence.',
+        exampleTranslation: 'Mọi người bắt đầu suy đoán về sự vắng mặt của anh ấy.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-11'),
+    words: [
+      {
+        id: 41,
+        english: 'allocate',
+        vietnamese: 'phân bổ',
+        example: 'We need to allocate funds for this project.',
+        exampleTranslation: 'Chúng ta cần phân bổ ngân sách cho dự án này.'
+      },
+      {
+        id: 42,
+        english: 'contradict',
+        vietnamese: 'mâu thuẫn, phản bác',
+        example: 'His actions contradict his words.',
+        exampleTranslation: 'Hành động của anh ấy mâu thuẫn với lời nói.'
+      },
+      {
+        id: 43,
+        english: 'formulate',
+        vietnamese: 'xây dựng, hình thành',
+        example: 'She formulated a brilliant strategy.',
+        exampleTranslation: 'Cô ấy đã xây dựng một chiến lược tuyệt vời.'
+      },
+      {
+        id: 44,
+        english: 'persevere',
+        vietnamese: 'kiên trì',
+        example: 'You must persevere despite the challenges.',
+        exampleTranslation: 'Bạn phải kiên trì bất chấp khó khăn.'
+      },
+      {
+        id: 45,
+        english: 'validate',
+        vietnamese: 'xác nhận, chứng thực',
+        example: 'We need to validate these findings.',
+        exampleTranslation: 'Chúng ta cần xác nhận những phát hiện này.'
+      }
+    ]
   }
 ]
