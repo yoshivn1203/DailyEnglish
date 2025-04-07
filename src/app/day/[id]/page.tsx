@@ -25,6 +25,15 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
   const [answeredQuestions, setAnsweredQuestions] = useState<Set<string>>(new Set())
   const [questions, setQuestions] = useState<TestQuestion[]>([])
 
+  // Add state for randomized day
+  const [randomizedDay] = useState(() => {
+    const day = wordsByDay[dayIndex]
+    return {
+      ...day,
+      words: [...day.words].sort(() => Math.random() - 0.5)
+    }
+  })
+
   // Handle invalid index
   if (isNaN(dayIndex) || dayIndex < 0 || dayIndex >= wordsByDay.length) {
     return (
@@ -33,13 +42,6 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
         <Button onClick={() => router.push('/')}>Back to Home</Button>
       </div>
     )
-  }
-
-  const day = wordsByDay[dayIndex]
-  // Create new day object with randomized words but keeping the same structure
-  const randomizedDay = {
-    ...day,
-    words: [...day.words].sort(() => Math.random() - 0.5)
   }
 
   // Generate test questions only when needed
