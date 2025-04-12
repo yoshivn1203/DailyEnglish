@@ -807,5 +807,285 @@ export const wordsByDay = [
         exampleTranslation: 'Chúng ta cần xác nhận những phát hiện này.'
       }
     ]
+  },
+  {
+    date: new Date('2025-04-12'),
+    words: [
+      {
+        id: 46,
+        english: 'assist',
+        vietnamese: 'hỗ trợ',
+        example: 'Can you assist me with this task?',
+        exampleTranslation: 'Bạn có thể hỗ trợ tôi với nhiệm vụ này không?'
+      },
+      {
+        id: 47,
+        english: 'decide',
+        vietnamese: 'quyết định',
+        example: 'We need to decide where to eat tonight.',
+        exampleTranslation: 'Chúng ta cần quyết định tối nay ăn ở đâu.'
+      },
+      {
+        id: 48,
+        english: 'improve',
+        vietnamese: 'cải thiện',
+        example: 'She wants to improve her skills.',
+        exampleTranslation: 'Cô ấy muốn cải thiện kỹ năng của mình.'
+      },
+      {
+        id: 49,
+        english: 'manage',
+        vietnamese: 'quản lý',
+        example: 'He manages a small team at work.',
+        exampleTranslation: 'Anh ấy quản lý một đội nhỏ ở chỗ làm.'
+      },
+      {
+        id: 50,
+        english: 'suggest',
+        vietnamese: 'đề xuất',
+        example: 'I suggest we meet at noon.',
+        exampleTranslation: 'Tôi đề xuất chúng ta gặp nhau lúc trưa.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-13'),
+    words: [
+      {
+        id: 51,
+        english: 'agree',
+        vietnamese: 'đồng ý',
+        example: 'They agree on the plan.',
+        exampleTranslation: 'Họ đồng ý với kế hoạch.'
+      },
+      {
+        id: 52,
+        english: 'choose',
+        vietnamese: 'chọn',
+        example: 'You can choose any color you like.',
+        exampleTranslation: 'Bạn có thể chọn bất kỳ màu nào bạn thích.'
+      },
+      {
+        id: 53,
+        english: 'discuss',
+        vietnamese: 'thảo luận',
+        example: 'Let’s discuss the project tomorrow.',
+        exampleTranslation: 'Hãy thảo luận về dự án vào ngày mai.'
+      },
+      {
+        id: 54,
+        english: 'prepare',
+        vietnamese: 'chuẩn bị',
+        example: 'She’s preparing dinner now.',
+        exampleTranslation: 'Cô ấy đang chuẩn bị bữa tối.'
+      },
+      {
+        id: 55,
+        english: 'solve',
+        vietnamese: 'giải quyết',
+        example: 'We need to solve this problem quickly.',
+        exampleTranslation: 'Chúng ta cần giải quyết vấn đề này nhanh chóng.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-14'),
+    words: [
+      {
+        id: 56,
+        english: 'explain',
+        vietnamese: 'giải thích',
+        example: 'Can you explain how this works?',
+        exampleTranslation: 'Bạn có thể giải thích cách này hoạt động không?'
+      },
+      {
+        id: 57,
+        english: 'listen',
+        vietnamese: 'lắng nghe',
+        example: 'Please listen to what I’m saying.',
+        exampleTranslation: 'Hãy lắng nghe những gì tôi đang nói.'
+      },
+      {
+        id: 58,
+        english: 'plan',
+        vietnamese: 'lập kế hoạch',
+        example: 'We’re planning a trip next month.',
+        exampleTranslation: 'Chúng tôi đang lập kế hoạch cho chuyến đi vào tháng tới.'
+      },
+      {
+        id: 59,
+        english: 'share',
+        vietnamese: 'chia sẻ',
+        example: 'He shared his ideas with the team.',
+        exampleTranslation: 'Anh ấy chia sẻ ý tưởng của mình với đội.'
+      },
+      {
+        id: 60,
+        english: 'wait',
+        vietnamese: 'chờ đợi',
+        example: 'I’ll wait for you outside.',
+        exampleTranslation: 'Tôi sẽ chờ bạn ở ngoài.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-15'),
+    words: [
+      {
+        id: 61,
+        english: 'ask',
+        vietnamese: 'hỏi',
+        example: 'Don’t be afraid to ask questions.',
+        exampleTranslation: 'Đừng ngại đặt câu hỏi.'
+      },
+      {
+        id: 62,
+        english: 'create',
+        vietnamese: 'tạo ra',
+        example: 'She created a beautiful painting.',
+        exampleTranslation: 'Cô ấy đã tạo ra một bức tranh tuyệt đẹp.'
+      },
+      {
+        id: 63,
+        english: 'finish',
+        vietnamese: 'hoàn thành',
+        example: 'I need to finish my homework.',
+        exampleTranslation: 'Tôi cần hoàn thành bài tập về nhà.'
+      },
+      {
+        id: 64,
+        english: 'learn',
+        vietnamese: 'học',
+        example: 'He’s learning to play the guitar.',
+        exampleTranslation: 'Anh ấy đang học chơi guitar.'
+      },
+      {
+        id: 65,
+        english: 'try',
+        vietnamese: 'thử',
+        example: 'Let’s try a new restaurant today.',
+        exampleTranslation: 'Hôm nay hãy thử một nhà hàng mới.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-16'),
+    words: [
+      {
+        id: 66,
+        english: 'answer',
+        vietnamese: 'trả lời',
+        example: 'She answered all my questions.',
+        exampleTranslation: 'Cô ấy trả lời tất cả câu hỏi của tôi.'
+      },
+      {
+        id: 67,
+        english: 'help',
+        vietnamese: 'giúp đỡ',
+        example: 'Can you help me carry this?',
+        exampleTranslation: 'Bạn có thể giúp tôi mang cái này không?'
+      },
+      {
+        id: 68,
+        english: 'meet',
+        vietnamese: 'gặp',
+        example: 'We’ll meet at the park later.',
+        exampleTranslation: 'Chúng ta sẽ gặp nhau ở công viên sau.'
+      },
+      {
+        id: 69,
+        english: 'start',
+        vietnamese: 'bắt đầu',
+        example: 'The movie starts at 7 p.m.',
+        exampleTranslation: 'Bộ phim bắt đầu lúc 7 giờ tối.'
+      },
+      {
+        id: 70,
+        english: 'work',
+        vietnamese: 'làm việc',
+        example: 'I work from home on Fridays.',
+        exampleTranslation: 'Tôi làm việc tại nhà vào thứ Sáu.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-17'),
+    words: [
+      {
+        id: 71,
+        english: 'call',
+        vietnamese: 'gọi',
+        example: 'I’ll call you later tonight.',
+        exampleTranslation: 'Tôi sẽ gọi bạn vào tối nay.'
+      },
+      {
+        id: 72,
+        english: 'check',
+        vietnamese: 'kiểm tra',
+        example: 'Can you check the time for me?',
+        exampleTranslation: 'Bạn có thể kiểm tra giờ giúp tôi không?'
+      },
+      {
+        id: 73,
+        english: 'follow',
+        vietnamese: 'theo dõi, làm theo',
+        example: 'Please follow the instructions carefully.',
+        exampleTranslation: 'Hãy làm theo hướng dẫn một cách cẩn thận.'
+      },
+      {
+        id: 74,
+        english: 'join',
+        vietnamese: 'tham gia',
+        example: 'Would you like to join us for lunch?',
+        exampleTranslation: 'Bạn có muốn tham gia ăn trưa với chúng tôi không?'
+      },
+      {
+        id: 75,
+        english: 'talk',
+        vietnamese: 'nói chuyện',
+        example: 'We need to talk about your plans.',
+        exampleTranslation: 'Chúng ta cần nói về kế hoạch của bạn.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-04-18'),
+    words: [
+      {
+        id: 76,
+        english: 'buy',
+        vietnamese: 'mua',
+        example: 'I need to buy some groceries.',
+        exampleTranslation: 'Tôi cần mua một ít thực phẩm.'
+      },
+      {
+        id: 77,
+        english: 'find',
+        vietnamese: 'tìm',
+        example: 'Did you find your keys?',
+        exampleTranslation: 'Bạn đã tìm thấy chìa khóa chưa?'
+      },
+      {
+        id: 78,
+        english: 'keep',
+        vietnamese: 'giữ',
+        example: 'Keep this safe for me, please.',
+        exampleTranslation: 'Hãy giữ cái này an toàn cho tôi.'
+      },
+      {
+        id: 79,
+        english: 'send',
+        vietnamese: 'gửi',
+        example: 'I’ll send you the details tomorrow.',
+        exampleTranslation: 'Tôi sẽ gửi chi tiết cho bạn vào ngày mai.'
+      },
+      {
+        id: 80,
+        english: 'use',
+        vietnamese: 'sử dụng',
+        example: 'Can I use your phone for a minute?',
+        exampleTranslation: 'Tôi có thể sử dụng điện thoại của bạn một phút không?'
+      }
+    ]
   }
 ]
