@@ -1087,5 +1087,285 @@ export const wordsByDay = [
         exampleTranslation: 'Tôi có thể sử dụng điện thoại của bạn một phút không?'
       }
     ]
+  },
+  {
+    date: new Date('2025-05-03'),
+    words: [
+      {
+        id: 1,
+        english: 'analyze',
+        vietnamese: 'phân tích',
+        example: 'We need to analyze the data.',
+        exampleTranslation: 'Chúng ta cần phân tích dữ liệu.'
+      },
+      {
+        id: 2,
+        english: 'assume',
+        vietnamese: 'giả định',
+        example: "Don't assume anything without proof.",
+        exampleTranslation: 'Đừng giả định điều gì mà không có bằng chứng.'
+      },
+      {
+        id: 3,
+        english: 'combine',
+        vietnamese: 'kết hợp',
+        example: "Let's combine our efforts.",
+        exampleTranslation: 'Hãy kết hợp nỗ lực của chúng ta.'
+      },
+      {
+        id: 4,
+        english: 'define',
+        vietnamese: 'định nghĩa',
+        example: 'Can you define this term?',
+        exampleTranslation: 'Bạn có thể định nghĩa thuật ngữ này không?'
+      },
+      {
+        id: 5,
+        english: 'expand',
+        vietnamese: 'mở rộng',
+        example: 'We plan to expand our business.',
+        exampleTranslation: 'Chúng tôi dự định mở rộng kinh doanh.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-04'),
+    words: [
+      {
+        id: 1,
+        english: 'arrive',
+        vietnamese: 'đến',
+        example: 'What time will you arrive?',
+        exampleTranslation: 'Bạn sẽ đến lúc mấy giờ?'
+      },
+      {
+        id: 2,
+        english: 'borrow',
+        vietnamese: 'mượn',
+        example: 'Can I borrow your pen?',
+        exampleTranslation: 'Tôi có thể mượn bút của bạn không?'
+      },
+      {
+        id: 3,
+        english: 'cancel',
+        vietnamese: 'hủy',
+        example: 'They canceled the meeting.',
+        exampleTranslation: 'Họ đã hủy cuộc họp.'
+      },
+      {
+        id: 4,
+        english: 'deliver',
+        vietnamese: 'giao hàng',
+        example: 'We deliver products worldwide.',
+        exampleTranslation: 'Chúng tôi giao hàng toàn cầu.'
+      },
+      {
+        id: 5,
+        english: 'enjoy',
+        vietnamese: 'thưởng thức',
+        example: 'Enjoy your meal!',
+        exampleTranslation: 'Chúc bạn ngon miệng!'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-05'),
+    words: [
+      {
+        id: 1,
+        english: 'admit',
+        vietnamese: 'thừa nhận',
+        example: 'He admitted his mistake.',
+        exampleTranslation: 'Anh ấy đã thừa nhận lỗi của mình.'
+      },
+      {
+        id: 2,
+        english: 'compare',
+        vietnamese: 'so sánh',
+        example: 'Compare your answers.',
+        exampleTranslation: 'So sánh câu trả lời của bạn.'
+      },
+      {
+        id: 3,
+        english: 'depend',
+        vietnamese: 'phụ thuộc',
+        example: 'It depends on the weather.',
+        exampleTranslation: 'Nó phụ thuộc vào thời tiết.'
+      },
+      {
+        id: 4,
+        english: 'encounter',
+        vietnamese: 'gặp phải',
+        example: 'We encountered many problems.',
+        exampleTranslation: 'Chúng tôi đã gặp nhiều vấn đề.'
+      },
+      {
+        id: 5,
+        english: 'forbid',
+        vietnamese: 'cấm',
+        example: 'Smoking is forbidden here.',
+        exampleTranslation: 'Hút thuốc bị cấm ở đây.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-06'),
+    words: [
+      {
+        id: 1,
+        english: 'guarantee',
+        vietnamese: 'đảm bảo',
+        example: 'We guarantee satisfaction.',
+        exampleTranslation: 'Chúng tôi đảm bảo sự hài lòng.'
+      },
+      {
+        id: 2,
+        english: 'highlight',
+        vietnamese: 'nhấn mạnh',
+        example: 'Highlight the main points.',
+        exampleTranslation: 'Nhấn mạnh các điểm chính.'
+      },
+      {
+        id: 3,
+        english: 'invest',
+        vietnamese: 'đầu tư',
+        example: 'They invest in technology.',
+        exampleTranslation: 'Họ đầu tư vào công nghệ.'
+      },
+      {
+        id: 4,
+        english: 'justify',
+        vietnamese: 'biện minh',
+        example: 'How can you justify your actions?',
+        exampleTranslation: 'Bạn có thể biện minh cho hành động của mình như thế nào?'
+      },
+      {
+        id: 5,
+        english: 'maintain',
+        vietnamese: 'duy trì',
+        example: "It's important to maintain good habits.",
+        exampleTranslation: 'Việc duy trì thói quen tốt là quan trọng.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-07'),
+    words: [
+      {
+        id: 1,
+        english: 'notice',
+        vietnamese: 'nhận thấy',
+        example: 'Did you notice the change?',
+        exampleTranslation: 'Bạn có nhận thấy sự thay đổi không?'
+      },
+      {
+        id: 2,
+        english: 'obtain',
+        vietnamese: 'đạt được',
+        example: 'How did you obtain this information?',
+        exampleTranslation: 'Bạn đã đạt được thông tin này như thế nào?'
+      },
+      {
+        id: 3,
+        english: 'persuade',
+        vietnamese: 'thuyết phục',
+        example: 'Can you persuade him to join?',
+        exampleTranslation: 'Bạn có thể thuyết phục anh ấy tham gia không?'
+      },
+      {
+        id: 4,
+        english: 'quote',
+        vietnamese: 'trích dẫn',
+        example: 'She quoted a famous author.',
+        exampleTranslation: 'Cô ấy đã trích dẫn một tác giả nổi tiếng.'
+      },
+      {
+        id: 5,
+        english: 'remind',
+        vietnamese: 'nhắc nhở',
+        example: 'Remind me to call her.',
+        exampleTranslation: 'Nhắc tôi gọi cho cô ấy.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-08'),
+    words: [
+      {
+        id: 1,
+        english: 'satisfy',
+        vietnamese: 'làm hài lòng',
+        example: 'The meal satisfied everyone.',
+        exampleTranslation: 'Bữa ăn đã làm hài lòng mọi người.'
+      },
+      {
+        id: 2,
+        english: 'tend',
+        vietnamese: 'có xu hướng',
+        example: 'People tend to forget.',
+        exampleTranslation: 'Mọi người có xu hướng quên.'
+      },
+      {
+        id: 3,
+        english: 'urge',
+        vietnamese: 'thúc giục',
+        example: 'He urged me to try again.',
+        exampleTranslation: 'Anh ấy thúc giục tôi thử lại.'
+      },
+      {
+        id: 4,
+        english: 'value',
+        vietnamese: 'đánh giá cao',
+        example: 'We value your feedback.',
+        exampleTranslation: 'Chúng tôi đánh giá cao phản hồi của bạn.'
+      },
+      {
+        id: 5,
+        english: 'warn',
+        vietnamese: 'cảnh báo',
+        example: 'They warned us about the risks.',
+        exampleTranslation: 'Họ đã cảnh báo chúng tôi về những rủi ro.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-09'),
+    words: [
+      {
+        id: 1,
+        english: 'accept',
+        vietnamese: 'chấp nhận',
+        example: 'She accepted the invitation.',
+        exampleTranslation: 'Cô ấy đã chấp nhận lời mời.'
+      },
+      {
+        id: 2,
+        english: 'blame',
+        vietnamese: 'đổ lỗi',
+        example: "Don't blame others.",
+        exampleTranslation: 'Đừng đổ lỗi cho người khác.'
+      },
+      {
+        id: 3,
+        english: 'complain',
+        vietnamese: 'phàn nàn',
+        example: 'He always complains.',
+        exampleTranslation: 'Anh ấy luôn phàn nàn.'
+      },
+      {
+        id: 4,
+        english: 'doubt',
+        vietnamese: 'nghi ngờ',
+        example: 'I doubt his story.',
+        exampleTranslation: 'Tôi nghi ngờ câu chuyện của anh ấy.'
+      },
+      {
+        id: 5,
+        english: 'explore',
+        vietnamese: 'khám phá',
+        example: "Let's explore the city.",
+        exampleTranslation: 'Hãy khám phá thành phố.'
+      }
+    ]
   }
 ]
