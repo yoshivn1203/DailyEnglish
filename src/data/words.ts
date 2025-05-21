@@ -1367,5 +1367,285 @@ export const wordsByDay = [
         exampleTranslation: 'Hãy khám phá thành phố.'
       }
     ]
+  },
+  {
+    date: new Date('2025-05-21'),
+    words: [
+      {
+        id: 1,
+        english: 'love',
+        vietnamese: 'yêu',
+        example: 'I love Quìn Nga.',
+        exampleTranslation: 'Tôi yêu Quìn Nga.'
+      },
+      {
+        id: 2,
+        english: 'consider',
+        vietnamese: 'xem xét',
+        example: 'Consider all options.',
+        exampleTranslation: 'Xem xét tất cả các lựa chọn.'
+      },
+      {
+        id: 3,
+        english: 'improve',
+        vietnamese: 'cải thiện',
+        example: 'He improved his skills.',
+        exampleTranslation: 'Anh ấy đã cải thiện kỹ năng của mình.'
+      },
+      {
+        id: 4,
+        english: 'suggest',
+        vietnamese: 'đề nghị',
+        example: 'I suggest a new plan.',
+        exampleTranslation: 'Tôi đề nghị một kế hoạch mới.'
+      },
+      {
+        id: 5,
+        english: 'require',
+        vietnamese: 'yêu cầu',
+        example: 'This job requires focus.',
+        exampleTranslation: 'Công việc này yêu cầu sự tập trung.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-22'),
+    words: [
+      {
+        id: 1,
+        english: 'decide',
+        vietnamese: 'quyết định',
+        example: 'They decided to stay.',
+        exampleTranslation: 'Họ quyết định ở lại.'
+      },
+      {
+        id: 2,
+        english: 'explain',
+        vietnamese: 'giải thích',
+        example: 'She explained the rules.',
+        exampleTranslation: 'Cô ấy giải thích các quy tắc.'
+      },
+      {
+        id: 3,
+        english: 'persuade',
+        vietnamese: 'thuyết phục',
+        example: 'He persuaded his team.',
+        exampleTranslation: 'Anh ấy đã thuyết phục đội của mình.'
+      },
+      {
+        id: 4,
+        english: 'discover',
+        vietnamese: 'khám phá',
+        example: 'We discovered a new place.',
+        exampleTranslation: 'Chúng tôi đã khám phá một nơi mới.'
+      },
+      {
+        id: 5,
+        english: 'maintain',
+        vietnamese: 'duy trì',
+        example: 'Maintain your health.',
+        exampleTranslation: 'Duy trì sức khỏe của bạn.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-23'),
+    words: [
+      {
+        id: 1,
+        english: 'organize',
+        vietnamese: 'tổ chức',
+        example: 'She organized the event.',
+        exampleTranslation: 'Cô ấy đã tổ chức sự kiện.'
+      },
+      {
+        id: 2,
+        english: 'reduce',
+        vietnamese: 'giảm',
+        example: 'Reduce your expenses.',
+        exampleTranslation: 'Giảm chi phí của bạn.'
+      },
+      {
+        id: 3,
+        english: 'support',
+        vietnamese: 'hỗ trợ',
+        example: 'We support the project.',
+        exampleTranslation: 'Chúng tôi hỗ trợ dự án.'
+      },
+      {
+        id: 4,
+        english: 'compare',
+        vietnamese: 'so sánh',
+        example: 'Compare these two items.',
+        exampleTranslation: 'So sánh hai món đồ này.'
+      },
+      {
+        id: 5,
+        english: 'encourage',
+        vietnamese: 'khuyến khích',
+        example: 'Encourage your friends.',
+        exampleTranslation: 'Khuyến khích bạn bè của bạn.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-24'),
+    words: [
+      {
+        id: 1,
+        english: 'develop',
+        vietnamese: 'phát triển',
+        example: 'They develop new software.',
+        exampleTranslation: 'Họ phát triển phần mềm mới.'
+      },
+      {
+        id: 2,
+        english: 'prevent',
+        vietnamese: 'ngăn chặn',
+        example: 'Prevent accidents carefully.',
+        exampleTranslation: 'Ngăn chặn tai nạn cẩn thận.'
+      },
+      {
+        id: 3,
+        english: 'recognize',
+        vietnamese: 'nhận ra',
+        example: 'I recognized her voice.',
+        exampleTranslation: 'Tôi nhận ra giọng của cô ấy.'
+      },
+      {
+        id: 4,
+        english: 'discuss',
+        vietnamese: 'thảo luận',
+        example: 'We discussed the plan.',
+        exampleTranslation: 'Chúng tôi đã thảo luận kế hoạch.'
+      },
+      {
+        id: 5,
+        english: 'appreciate',
+        vietnamese: 'đánh giá cao',
+        example: 'I appreciate your help.',
+        exampleTranslation: 'Tôi đánh giá cao sự giúp đỡ của bạn.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-25'),
+    words: [
+      {
+        id: 1,
+        english: 'manage',
+        vietnamese: 'quản lý',
+        example: 'She manages the team.',
+        exampleTranslation: 'Cô ấy quản lý đội.'
+      },
+      {
+        id: 2,
+        english: 'adjust',
+        vietnamese: 'điều chỉnh',
+        example: 'Adjust the settings.',
+        exampleTranslation: 'Điều chỉnh các cài đặt.'
+      },
+      {
+        id: 3,
+        english: 'involve',
+        vietnamese: 'liên quan',
+        example: 'This involves teamwork.',
+        exampleTranslation: 'Điều này liên quan đến làm việc nhóm.'
+      },
+      {
+        id: 4,
+        english: 'reflect',
+        vietnamese: 'phản ánh',
+        example: 'Her work reflects effort.',
+        exampleTranslation: 'Công việc của cô ấy phản ánh sự nỗ lực.'
+      },
+      {
+        id: 5,
+        english: 'contribute',
+        vietnamese: 'đóng góp',
+        example: 'Contribute to the project.',
+        exampleTranslation: 'Đóng góp vào dự án.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-26'),
+    words: [
+      {
+        id: 1,
+        english: 'analyze',
+        vietnamese: 'phân tích',
+        example: 'Analyze the data carefully.',
+        exampleTranslation: 'Phân tích dữ liệu cẩn thận.'
+      },
+      {
+        id: 2,
+        english: 'resolve',
+        vietnamese: 'giải quyết',
+        example: 'Resolve the issue quickly.',
+        exampleTranslation: 'Giải quyết vấn đề nhanh chóng.'
+      },
+      {
+        id: 3,
+        english: 'promote',
+        vietnamese: 'thúc đẩy',
+        example: 'Promote a healthy lifestyle.',
+        exampleTranslation: 'Thúc đẩy lối sống lành mạnh.'
+      },
+      {
+        id: 4,
+        english: 'assume',
+        vietnamese: 'cho rằng',
+        example: 'Don’t assume it’s true.',
+        exampleTranslation: 'Đừng cho rằng điều đó đúng.'
+      },
+      {
+        id: 5,
+        english: 'expand',
+        vietnamese: 'mở rộng',
+        example: 'Expand your knowledge.',
+        exampleTranslation: 'Mở rộng kiến thức của bạn.'
+      }
+    ]
+  },
+  {
+    date: new Date('2025-05-27'),
+    words: [
+      {
+        id: 1,
+        english: 'convince',
+        vietnamese: 'thuyết phục',
+        example: 'Convince him to join.',
+        exampleTranslation: 'Thuyết phục anh ấy tham gia.'
+      },
+      {
+        id: 2,
+        english: 'establish',
+        vietnamese: 'thiết lập',
+        example: 'Establish clear rules.',
+        exampleTranslation: 'Thiết lập các quy tắc rõ ràng.'
+      },
+      {
+        id: 3,
+        english: 'estimate',
+        vietnamese: 'ước tính',
+        example: 'Estimate the cost.',
+        exampleTranslation: 'Ước tính chi phí.'
+      },
+      {
+        id: 4,
+        english: 'achieve',
+        vietnamese: 'đạt được',
+        example: 'Achieve success through effort.',
+        exampleTranslation: 'Đạt được thành công qua nỗ lực.'
+      },
+      {
+        id: 5,
+        english: 'demonstrate',
+        vietnamese: 'thể hiện',
+        example: 'Demonstrate your skills.',
+        exampleTranslation: 'Thể hiện kỹ năng của bạn.'
+      }
+    ]
   }
 ]
